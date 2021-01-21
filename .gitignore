@@ -1,0 +1,15 @@
+# Dependency directory
+node_modules
+
+# Build directory
+dist
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# yarn
+yarn-error.log
+
+#dist
+dist
