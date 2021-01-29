@@ -6,5 +6,8 @@ app.get('/', (req, res) => {
   res.send('The server is working!');
 });
 app.listen(port, () => {
+  if (port === 3000) {
+    console.log('true')
+  }
   console.log(`server is listening on ${port} !!!`);
 });

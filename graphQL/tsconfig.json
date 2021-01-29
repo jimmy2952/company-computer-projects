@@ -1,4 +1,3 @@
-// tsconfig.json
 {
   "compilerOptions": {
     "target": "es5", // 選擇要編譯成哪種版本的 JavaScript
