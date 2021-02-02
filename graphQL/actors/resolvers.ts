@@ -1,7 +1,7 @@
 import { books } from '../data'
 import { Book } from '../model/bookModel'
 
-const resolvers = {
+export const resolvers = {
   Query: {
     books: function(root: any, args: any, context: any, info: any) {
       return books;

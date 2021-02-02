@@ -1,0 +1,10 @@
+# the HTTP endpoint for the demo server on Prisma Cloud
+endpoint: ""
+
+# points to the file that contains your datamodel
+datamodel: datamodel.graphQL
+
+# specifies language & location for the generated Prisma client
+generate:
+- generator: typescript-client
+output: ./client
